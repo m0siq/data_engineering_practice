@@ -1,0 +1,41 @@
+[0m10:00:09.185485 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C673F24C20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C6749F8A50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C67605FD90>]}
+
+
+============================== 10:00:09.189498 | 5b543f19-678c-4680-8dc8-944eb3b92df9 ==============================
+[0m10:00:09.189498 [info ] [MainThread]: Running with dbt=1.10.15
+[0m10:00:09.190183 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'empty': 'None', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'profiles_dir': 'C:\\Users\\Alumno_AI\\.dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'use_colors': 'True', 'indirect_selection': 'eager', 'invocation_command': 'dbt init dbt_project', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m10:00:09.208249 [info ] [MainThread]: Creating dbt configuration folder at C:\Users\Alumno_AI\.dbt
+[0m10:00:09.209960 [info ] [MainThread]: A project called dbt_project already exists here.
+[0m10:00:09.211206 [debug] [MainThread]: Command `dbt init` succeeded at 10:00:09.211063 after 0.18 seconds
+[0m10:00:09.211572 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C674FCF6F0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C6760DAE70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C67601E7A0>]}
+[0m10:00:09.211940 [debug] [MainThread]: Flushing usage events
+[0m10:00:09.952673 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m10:00:42.287137 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000015F39754C20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000015F3A218A50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000015F3B88FD90>]}
+
+
+============================== 10:00:42.291154 | 8e7b86cd-9aa1-4973-a981-ff39c871b0d6 ==============================
+[0m10:00:42.291154 [info ] [MainThread]: Running with dbt=1.10.15
+[0m10:00:42.291800 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'version_check': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'None', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\Alumno_AI\\.dbt', 'indirect_selection': 'eager', 'invocation_command': 'dbt init dbt_project', 'use_colors': 'True', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m10:00:42.309970 [debug] [MainThread]: Starter project path: C:\Users\Alumno_AI\Documents\data_engineering_practice\venv\Lib\site-packages\dbt\include\starter_project
+[0m10:00:42.333646 [info ] [MainThread]: 
+Your new dbt project "dbt_project" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m10:00:42.334338 [info ] [MainThread]: Setting up your profile.
+[0m10:03:11.607847 [info ] [MainThread]: Profile dbt_project written to C:\Users\Alumno_AI\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m10:03:11.609168 [debug] [MainThread]: Command `dbt init` succeeded at 10:03:11.608994 after 149.43 seconds
+[0m10:03:11.609662 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000015F3B916FD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000015F3B9EA9F0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000015F3B84FBD0>]}
+[0m10:03:11.610193 [debug] [MainThread]: Flushing usage events
+[0m10:03:12.355851 [debug] [MainThread]: An error was encountered while trying to flush usage events
