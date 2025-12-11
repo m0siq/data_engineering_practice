@@ -71,16 +71,18 @@ python scripts/carga_inicial.py
 
 PASO 7: FASE 2 - TRANSFORMACIÓN (DBT) Construye los modelos y ejecuta los tests de calidad. IMPORTANTE: Usamos "--profiles-dir ." para decirle que lea el archivo que acabamos de crear.
 
-cd dbt_project dbt build --profiles-dir .
+cd dbt_project
+#importante ejecutar con el punto sino no va a ir
+dbt build --profiles-dir .
 
 (Esperado: Todos los modelos stg, int, mart en verde).
 
 ================================================================================
 
 PASO 8: VISUALIZAR DOCUMENTACIÓN Genera el sitio web con el linaje de datos:
-
+#importante ejecutar con el punto sino no va a ir
 dbt docs generate --profiles-dir . 
-
+#importante ejecutar con el punto sino no va a ir
 dbt docs serve --port 8001 --profiles-dir .
 
 Abre en tu navegador: http://localhost:8001
