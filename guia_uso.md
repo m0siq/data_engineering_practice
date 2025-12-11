@@ -31,7 +31,9 @@ docker compose up -d
 
 PASO 4: CONFIGURAR ENTORNO PYTHON Crea un entorno virtual e instala las dependencias:
 
-En Windows: python -m venv venv .\venv\Scripts\activate pip install pandas sqlalchemy psycopg2-binary dbt-core dbt-postgres
+En Windows: python -m venv venv 
+.\venv\Scripts\activate 
+pip install pandas sqlalchemy psycopg2-binary dbt-core dbt-postgres
 
 En Mac/Linux: python3 -m venv venv source venv/bin/activate pip install pandas sqlalchemy psycopg2-binary dbt-core dbt-postgres
 
